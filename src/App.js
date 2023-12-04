@@ -9,16 +9,18 @@ import Home from './pages/Home'
 
 
 function App() {
-  return ( <Router>
-        <div style={{backgroundColor: "#000000"}}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/imageGeneration" element={<Home />} />
-            <Route path="/musicGeneration" element={<Home />} />
-            <Route path="/videoGeneration" element={<Home />} />
-          </Routes>
-        </div>
-      </Router>
+  return (
+      <h1>hello </h1>
+      // <Router>
+      //   <div style={{backgroundColor: "#000000"}}>
+      //     <Routes>
+      //       <Route path="/" element={<Home />} />
+      //       <Route path="/imageGeneration" element={<Home />} />
+      //       <Route path="/musicGeneration" element={<Home />} />
+      //       <Route path="/videoGeneration" element={<Home />} />
+      //     </Routes>
+      //   </div>
+      // </Router>
   );
 }
 
